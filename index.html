@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ludei Wearable</title>
+    <style>
+        body{
+            margin:0;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            padding:0;
+            background:#000;
+            -ms-touch-action:none;
+        }
+        #container{
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        @font-face { font-family: 'Nexa-light'; src: url('static/res_tiles/fonts/Nexa-Light.otf'); }
+        @font-face { font-family: 'Nexa-bold'; src: url('static/res_tiles/fonts/Nexa-Bold.otf'); }
+        @font-face { font-family: 'Nexa-thin'; src: url('static/res_tiles/fonts/NexaThin.otf'); }
+        @font-face { font-family: 'Roboto-light'; src: url('static/res_tiles/fonts/Roboto-Light.ttf'); }
+
+    </style>
+
+</head>
+<body style="">
+
+<div  id="container">
+    <canvas id="app_canvas"></canvas>
+</div>
+
+<!--Preload fonts-->
+<div style="font-family: 'Nexa-light'; float:left; color: white; position:absolute; top:-1000px">&nbsp;</div>
+<div style="font-family: 'Nexa-bold'; float:left; color: white; position:absolute; top:-1000px">&nbsp;</div>
+<div style="font-family: 'Nexa-thin'; float:left; color: white; position:absolute; top:-1000px">&nbsp;</div>
+<div style="font-family: 'Roboto-light'; float:left; color: white; position:absolute; top:-1000px">&nbsp;</div>
+
+</body>
+
+<!-- CAAT -->
+<script src="Lib/caat.js"></script>
+
+<script>
+    CAAT.DEBUG=0;
+</script>
+
+<!-- APP -->
+<script src="static/js/init.js"></script>
+<script src="static/js/utils.js"></script>
+
+</html>
