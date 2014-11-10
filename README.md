@@ -42,7 +42,7 @@ How to compile the demo for Android Wear using CocoonJS Cloud
 Now it's easy to get your html5 apps running in android wearables thanks to Ludei. Please follow the next steps:
 
 1. Log into the [dev portal](https://cloud.ludei.com/cloud/).
-2. Create or select your project to compile for android wear.
+2. Create or select your project to compile for android wear. Select **Landscape Left** as Orientation.
 3. Click on **compile project**.
 4. Upload the zip with this demo (zip created with index.html file, Lib and static folders).
 5. Select **Android wear**.
